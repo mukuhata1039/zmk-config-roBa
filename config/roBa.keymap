@@ -96,7 +96,7 @@
         BLUE_TOOTH {
             bindings = <
                 &bt BT_CLR     &bt BT_CLR_ALL           &bt BT_SEL 0     &bt BT_SEL 1
-                &kp f          &kp h                    &kp j            &mo 1
+                &kp F          &kp H                    &kp J            &mo 1
             >;
         };
         /*
