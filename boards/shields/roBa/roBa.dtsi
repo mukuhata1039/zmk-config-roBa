@@ -43,12 +43,12 @@
                 , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                 ;
     };
-    /*
+    
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <12>;
+        a-gpios = <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <24>;
         status = "disabled";
     };
 
@@ -61,7 +61,7 @@
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <10>;
     };
-
+    /*
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
