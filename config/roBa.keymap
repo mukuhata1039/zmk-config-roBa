@@ -88,6 +88,9 @@
                 &kp LEFT_SHIFT     &kp A                  &kp B        &kp BACKSPACE
                 &kp SPACE          &kp C                  &kp D        &kp ENTER
             >;
+            
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+
         };
 
         /*
