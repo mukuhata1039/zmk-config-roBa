@@ -106,7 +106,7 @@
 &kp F       &kp H               &kp J         &to 2
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LA(LS(TAB))) LA(LC(TAB))>;
+            sensor-bindings = <&inc_dec_kp LC(LA(TAB)) LA(LC(LS(TAB)))>;
         };
 
         layer_2 {
