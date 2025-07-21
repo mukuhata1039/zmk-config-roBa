@@ -94,7 +94,7 @@
         default_layer {
             bindings = <
 &kp LEFT_SHIFT  &kp A      &kp B  &kp BACKSPACE
-&kp SPACE       &kp C      &kp D  &mo 1
+&kp SPACE       &kp C      &kp D  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -103,7 +103,7 @@
         BLUE_TOOTH {
             bindings = <
 &bt BT_CLR  &bt BT_CLR_ALL      &bt BT_SEL 0  &bt BT_SEL 1
-&kp F       &kp H               &kp J         &mo 1
+&kp F       &kp H               &kp J         &to 2
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LA(LS(TAB))) LA(LC(TAB))>;
@@ -112,63 +112,49 @@
         layer_2 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 3
             >;
         };
 
         layer_3 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 4
             >;
         };
 
         layer_4 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 5
             >;
         };
 
         layer_5 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 6
             >;
         };
 
         layer_6 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 7
             >;
         };
 
         layer_7 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 8
             >;
         };
 
         layer_8 {
             bindings = <
 &trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
-            >;
-        };
-
-        layer_9 {
-            bindings = <
-&trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-&trans  &trans      &trans  &trans
-&trans  &trans      &trans  &trans
+&trans  &trans      &trans  &to 1
             >;
         };
 
